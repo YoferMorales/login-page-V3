@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="glass-container">
+        <div class="login-box">
+            
+            <!-- titulo: login -->
+            <h2>Login</h2>
+            <form action="#" method="post">
+
+                <!-- input username -->
+                <input type="text" id="username" name="usermane" required placeholder="Username">
+
+                <!-- input password -->
+                <input type="password" name=""password id="password" required placeholder="Password">
+
+                <!-- opciones de usurio -->
+                <div class="options">
+
+                    <!-- opcion para recordar -->
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Recordarme</label>
+
+                    <!-- opcion que en caso olvido su password -->
+                    <a href="#">olvido su contraseña?</a>
+                </div>
+
+                <!-- boton para loguearse -->
+                <button type="submit">LogIn</button>
+
+                <!-- si no tiene cuenta el usuario se puede registrar -->
+                <p>No tiene cuenta? <a href="#" id="register">Registrarse</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
